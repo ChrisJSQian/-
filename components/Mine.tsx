@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from '../types';
-import { Settings, ChevronRight, CreditCard, BookOpen, Share2, LogOut, Calculator, Package, HeadphonesIcon } from 'lucide-react';
+import { Settings, ChevronRight, CreditCard, BookOpen, Share2, LogOut, Calculator, Package, Headphones } from 'lucide-react';
 
 interface MineProps {
   onNavigate: (view: View) => void;
@@ -74,7 +74,7 @@ const Mine: React.FC<MineProps> = ({ onNavigate, onLogout }) => {
         <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
            {[
              { icon: Settings, label: '系统设置' },
-             { icon: HeadphonesIcon, label: '帮助与反馈' }
+             { icon: Headphones, label: '帮助与反馈' }
            ].map((item, i) => (
              <div key={item.label} className={`p-4 flex items-center justify-between active:bg-gray-50 ${i !== 1 ? 'border-b border-gray-50' : ''}`}>
                <div className="flex items-center gap-3">
