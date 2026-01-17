@@ -1,0 +1,7 @@
+{
+  "name": "OrangeAuto Finance B-End",
+  "description": "A B2B automotive finance application for agents, featuring dashboard, customer management, application wizard, and order tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
